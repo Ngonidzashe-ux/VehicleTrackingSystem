@@ -27,12 +27,15 @@ Classifies detected objects into categories such as cars, buses, trucks, and mot
 ### SORT Tracking:
 
 Initializes the SORT tracker with specific parameters (max_age, min_hits, iou_threshold).
-Tracks the detected vehicles across frames, assigning unique IDs to each.
+Tracks the detected vehicles across frames, classifying them and assigning unique IDs to each.
 ### Counting and Visualization:
 
 Defines a counting line with specified coordinates (limits) to count vehicles.
 Displays the count of detected vehicles and their unique IDs on the image.
 Changes the color of the counting line to green when a new vehicle is counted.
+<img width="1197" alt="Screenshot 2024-01-11 at 10 36 05" src="https://github.com/Ngonidzashe-ux/VehicleTrackingSystem/assets/80784025/536db564-79dd-4f5e-8ce9-80e9561e7363">
+
+
 ### Graphics Overlay:
 
 Overlays additional graphics on the image, enhancing the visualization of tracked vehicles.
